@@ -1,0 +1,12 @@
+{
+  "FunctionName": "ecs-task-replacer",
+  "Handler": "index.handler",
+  "Layers": [
+    "arn:aws:lambda:ap-northeast-1:744348701589:layer:bash:8",
+    "arn:aws:lambda:ap-northeast-1:553035198032:layer:git:8"
+  ],
+  "MemorySize":256,
+  "Role": "arn:aws:iam::236376252900:role/lambroll-test",
+  "Runtime": "provided",
+  "Timeout": 30
+}
